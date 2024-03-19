@@ -1,0 +1,59 @@
+body {
+    background-color: whitesmoke;
+    opacity: 0.95;
+    font-family: "Instrument Sans", sans-serif;
+    width: 1440px;
+    height: 1024px;
+    
+
+}
+
+.h1__title{
+    color: black;
+  text-align: center;
+  line-height: 1.4;
+
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    position: relative;
+   
+    
+    
+    
+
+    &__img {
+        background-image: url("../assets/emile-seguin.png");
+        position: absolute;
+        width: 1440px;
+        height: 923px;
+
+
+        
+    }
+    
+    &__text {
+        text-align: center;
+        margin: 70px;
+        font-size: 25px;
+        position: absolute;
+        left: 22%;
+        margin-top: 15%;
+      
+    }
+
+    &__button {
+        padding: 20px;
+        margin: 5px;
+        width: 150px;
+        border-radius: 35px 35px;
+        background-color: black;
+        color: white;
+        opacity: 0.8;
+        font-size: 20px;
+    }
+  
+}
+
