@@ -6,6 +6,16 @@
         font-family: "Instrument Sans", sans-serif;
         gap: 8px;
         margin: 0 auto;
+
+        &__button {
+            padding: 20px;
+            margin: 5px;
+            width: 200px;
+            border-radius: 35px 35px;
+            background-color: #333333;
+            color: white;
+            font-size: 20px;
+        }
         &__one {
             padding: 1em;
             margin-left: 2em;

@@ -32,9 +32,9 @@ body {
 .container__button {
   padding: 20px;
   margin: 5px;
-  width: 150px;
+  width: 200px;
   border-radius: 35px 35px;
-  background-color: black;
+  background-color: #06040A;
   color: white;
   opacity: 0.8;
   font-size: 20px;
@@ -57,12 +57,12 @@ body {
 .article__containers__text {
   color: white;
 }
-.article__containers__bottom {
+.article__containers__button {
   padding: 20px;
   margin: 5px;
-  width: 160px;
+  width: 150px;
   border-radius: 35px 35px;
-  background-color: black;
+  background-color: #06040A;
   color: white;
   opacity: 0.8;
   font-size: 20px;
@@ -81,6 +81,15 @@ svg {
   font-family: "Instrument Sans", sans-serif;
   gap: 8px;
   margin: 0 auto;
+}
+.container__card__button {
+  padding: 20px;
+  margin: 5px;
+  width: 200px;
+  border-radius: 35px 35px;
+  background-color: #333333;
+  color: white;
+  font-size: 20px;
 }
 .container__card__one {
   padding: 1em;
