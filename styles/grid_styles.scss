@@ -6,7 +6,19 @@
         font-family: "Instrument Sans", sans-serif;
         gap: 8px;
         margin: 0 auto;
+        &__one {
+            padding: 1em;
+            margin-left: 2em;
 
+            &__title{
+                font-size: 35px;
+            }
+
+            &__parraf {
+                font-size: 20px;
+            }
+
+        }
         &__two {
             text-align: left;
             border-radius: 24px 24px;
@@ -30,8 +42,8 @@
         }
 
         &__four {
-            display: inline-block;
-            text-align: center;
+            
+            text-align: left;
             border-radius: 24px 24px;
             background-color: #F2F2F2;
             line-height: 1em;
@@ -40,7 +52,9 @@
             grid-column: span 2;
             display: flex;
 
-            
+            &__title {
+                margin: 1em;
+            }
 
             
             &__img {
@@ -54,6 +68,7 @@
 }
 .container__3cards {
     display: grid;
-    padding: 1em;
-    margin: 1em;
+  padding: 1em;
+  margin-right: 30px;
+  margin-top: 20px;
 }
