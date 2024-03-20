@@ -3,6 +3,7 @@ body {
   opacity: 0.95;
   font-family: "Instrument Sans", sans-serif;
   width: 100%;
+  margin: auto;
 }
 
 .h1__title {
@@ -22,15 +23,11 @@ body {
   background-position: center;
   background-size: cover;
 }
-.container__img {
-  position: absolute;
-}
 .container__text {
   text-align: center;
   font-size: 25px;
-  position: absolute;
-  left: 30%;
   margin-top: 14%;
+  margin-left: 27%;
 }
 .container__button {
   padding: 20px;
@@ -51,10 +48,11 @@ body {
   width: 90%;
   border-radius: 25px 25px;
   margin: 40px auto;
+  margin-top: 40px;
   padding-bottom: 35px;
   font-size: 20px;
-  position: relative;
-  margin-top: 1px;
+  margin-top: -2em;
+  padding-top: 1em;
 }
 .article__containers__text {
   color: white;
@@ -74,6 +72,52 @@ svg {
   width: 10%;
   height: auto;
   margin-top: 23px;
+}
+
+.container__card {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  font-family: "Instrument Sans", sans-serif;
+  gap: 8px;
+  margin: 0 auto;
+}
+.container__card__two {
+  text-align: left;
+  border-radius: 24px 24px;
+  background-color: #C6D9E1;
+  opacity: 0.8;
+  line-height: 1em;
+  margin: auto;
+  padding: 1.5em;
+}
+.container__card__three {
+  text-align: left;
+  border-radius: 24px 24px;
+  background-color: #F2F2F2;
+  line-height: 1em;
+  margin: auto;
+  padding: 1.5em;
+}
+.container__card__four {
+  display: inline-block;
+  text-align: center;
+  border-radius: 24px 24px;
+  background-color: #F2F2F2;
+  line-height: 1em;
+  margin: auto;
+  padding: 1.5em;
+  grid-column: span 2;
+  display: flex;
+}
+.container__card__four__img {
+  display: flex;
+}
+
+.container__3cards {
+  display: grid;
+  padding: 1em;
+  margin: 1em;
 }
 
 /*# sourceMappingURL=output.css.map */

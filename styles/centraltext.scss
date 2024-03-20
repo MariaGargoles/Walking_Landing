@@ -2,8 +2,8 @@ body {
     background-color: whitesmoke;
     opacity: 0.95;
     font-family: "Instrument Sans", sans-serif;
-    width: 100%
-    
+    width: 100%;
+    margin: auto;
 
 }
 
@@ -26,24 +26,13 @@ body {
     background-size: cover;
     
     
-    
 
-    &__img {
-       
-        
-        position: absolute;
-        
-
-
-        
-    }
     
     &__text {
         text-align: center;
         font-size: 25px;
-        position: absolute;
-        left: 30%;
         margin-top: 14%;
+        margin-left: 27%;
 
       
     }
