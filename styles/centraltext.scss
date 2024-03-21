@@ -2,37 +2,35 @@ body {
     background-color: whitesmoke;
     opacity: 0.95;
     font-family: "Instrument Sans", sans-serif;
-    width: 100%;
     margin: auto;
 
 }
 
 .h1__title{
     color: black;
-  text-align: center;
-  line-height: 1.4;
+    text-align: center;
+    line-height: 1.1;
+    font-size: 2.25em;
 
 }
 
 .container {
-    display: flex;
-    margin: auto;
-    position: relative;
     background-image: url("../assets/emile-seguin.png");
-    height: 1000px;
+    height: 100em;
     background-repeat: no-repeat;
     width: 100%;
     background-position: center;
     background-size: cover;
+    position: relative;
     
     
 
     
     &__text {
         text-align: center;
-        font-size: 25px;
+        font-size: 2rem;
         margin-top: 14%;
-        margin-left: 27%;
+        
 
       
     }
@@ -40,11 +38,11 @@ body {
     &__button {
         padding: 1em 3em;
         margin: 1em;
-        border-radius: 35px 35px;
+        border-radius: 2em 2em;
         background-color: #06040A;
         color: white;
         opacity: 0.8;
-        font-size: 20px;
+        font-size: 1.25rem;
     }
   
 }
