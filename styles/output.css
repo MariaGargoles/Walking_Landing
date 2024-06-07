@@ -40,8 +40,8 @@ body {
   display: flex;
   justify-content: space-evenly;
   width: 90%;
-  border-radius: 2em 2em;
-  margin: 1em 1em;
+  border-radius: 2em;
+  margin: 1em;
   margin-top: -4em;
   padding-bottom: 2em;
   font-size: 1.25rem;
@@ -52,12 +52,12 @@ body {
 }
 .article__containers__button {
   padding: 1em 3em;
-  margin: 5px;
-  border-radius: 35px 35px;
+  margin: 0.3125rem;
+  border-radius: 2.1875rem;
   background-color: #06040A;
   color: white;
   opacity: 0.8;
-  font-size: 1.25em;
+  font-size: 1.25rem;
 }
 
 svg {
@@ -75,53 +75,52 @@ svg {
   margin: 0 auto;
 }
 .container__card__button {
-  padding: 20px;
-  margin: 5px;
-  padding: 1em 2em;
-  border-radius: 35px 35px;
+  padding: 1.25rem 2rem;
+  margin: 0.3125rem;
+  border-radius: 2.1875rem;
   background-color: #333333;
   color: white;
   font-size: 1.25rem;
 }
 .container__card__one {
-  padding: 1em;
-  margin-left: 2em;
+  padding: 1rem;
+  margin-left: 2rem;
 }
 .container__card__one__title {
-  font-size: 35px;
+  font-size: 2.1875rem;
 }
 .container__card__one__parraf {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .container__card__two {
   text-align: left;
-  border-radius: 24px 24px;
+  border-radius: 1.5rem;
   background-color: #C6D9E1;
   opacity: 0.8;
   line-height: 1em;
   margin: auto;
-  padding: 1.5em;
+  padding: 1.5rem;
 }
 .container__card__three {
   text-align: left;
-  border-radius: 1.5rem 1.5rem;
+  border-radius: 1.5rem;
   background-color: #F2F2F2;
   line-height: 1em;
   margin: auto;
-  padding: 1.5em;
+  padding: 1.5rem;
 }
 .container__card__four {
   text-align: left;
-  border-radius: 1.5rem 1.5rem;
+  border-radius: 1.5rem;
   background-color: #F2F2F2;
   line-height: 1em;
   margin: auto;
-  padding: 1.5em;
+  padding: 1.5rem;
   grid-column: span 2;
   display: flex;
 }
 .container__card__four__title {
-  margin: 1em;
+  margin: 1rem;
 }
 .container__card__four__img {
   display: flex;
@@ -129,10 +128,10 @@ svg {
 
 .container__3cards {
   display: grid;
-  padding: 1em;
-  margin-right: 30px;
-  margin-top: 20px;
-  gap: 30px;
+  padding: 1rem;
+  margin-right: 1.875rem;
+  margin-top: 1.25rem;
+  gap: 1.875rem;
 }
 
 /*# sourceMappingURL=output.css.map */
