@@ -9,9 +9,6 @@
   padding-bottom: 2em;
   font-size: 1.25rem;
   padding-top: 1em;
-  position: absolute;
-  top: 135%;
-  left: 3%;
   
     &__text {
       color: white;
@@ -24,7 +21,7 @@
       background-color: #06040A;
       color: white;
       opacity: 0.8;
-      font-size: 20px;
+      font-size: 1.25em;
     
   }
   }
@@ -33,6 +30,6 @@
 svg {
     width: 10%;
   height: auto;
-  margin-top: 23px;
+  margin-top: 1.4rem;
 }
 
